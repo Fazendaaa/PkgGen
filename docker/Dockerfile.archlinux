@@ -1,0 +1,8 @@
+FROM archlinux:base-devel-20220102.0.42924
+LABEL author="fazenda"
+LABEL project="archlinux"
+
+RUN [ "useradd", "-ms", "/bin/bash", "pkggen" ]
+
+USER pkggen
+WORKDIR /home/pkggen
