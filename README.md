@@ -1,4 +1,4 @@
-# Generates the needed artefacts to publish a Linux package
+# Generates the needed artifacts to publish a Linux package
 
 ## Installation
 

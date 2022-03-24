@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pkggen"
 version = "0.1.0"
-description = "Generates the needed artefacts to publish a Linux package"
+description = "Generates the needed artifacts to publish a Linux package"
 authors = ["Fazendaaa <lucas.carotta@outlook.com>"]
 license = "GPL"
 

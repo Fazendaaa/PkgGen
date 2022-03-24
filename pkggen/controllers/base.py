@@ -4,7 +4,7 @@ from cement.utils.version import get_version_banner
 from ..core.version import get_version
 
 VERSION_BANNER = """
-Generates the needed artefacts to publish a Linux package %s
+Generates the needed artifacts to publish a Linux package %s
 %s
 """ % (get_version(), get_version_banner())
 
@@ -14,7 +14,7 @@ class Base(Controller):
         label = 'base'
 
         # text displayed at the top of --help output
-        description = 'Generates the needed artefacts to publish a Linux package'
+        description = 'Generates the needed artifacts to publish a Linux package'
 
         # text displayed at the bottom of --help output
         epilog = 'Usage: pkggenerator command1 --foo bar'
