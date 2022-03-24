@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pkggen"
+version = "0.1.0"
+description = "Generates the needed artefacts to publish a Linux package"
+authors = ["Fazendaaa <lucas.carotta@outlook.com>"]
+license = "GPL"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cement = "3.0.6"
+Jinja2 = "^3.0.3"
+PyYAML = "^6.0"
+colorlog = "^6.6.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+pytest = "^7.1.1"
+pytest-cov = "^3.0.0"
+coverage = "^6.3.2"
+twine = "1.11.0"
+setuptools = "38.6.0"
+wheel = "0.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pkggen = "pkggen.main:main"
